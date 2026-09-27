@@ -1,0 +1,25 @@
+{
+  "text": "Berners-Lee was born in London on 8 June 1955. Berners-Lee worked as an independent contractor at CERN from June to December 1980. While in Geneva, he proposed a project based on the concept of hypertext, to facilitate sharing and updating information among researchers.",
+  "entities": [
+    {"text": "Berners-Lee", "label": "PERSON"},
+    {"text": "London", "label": "GPE"},
+    {"text": "8 June 1955", "label": "DATE"},
+    {"text": "CERN", "label": "ORG"},
+    {"text": "June to December 1980", "label": "DATE"},
+    {"text": "Geneva", "label": "GPE"},
+    {"text": "independent contractor", "label": "ROLE"},
+    {"text": "hypertext", "label": "CONCEPT"}
+  ],
+  "relations": [
+    {"subject": "Berners-Lee", "relation": "born_in", "object": "London"},
+    {"subject": "Berners-Lee", "relation": "birth_date", "object": "8 June 1955"},
+    {"subject": "Berners-Lee", "relation": "worked_as", "object": "independent contractor"},
+    {"subject": "Berners-Lee", "relation": "worked_at", "object": "CERN"},
+    {"subject": "Berners-Lee", "relation": "worked_from", "object": "June 1980"},
+    {"subject": "Berners-Lee", "relation": "worked_until", "object": "December 1980"},
+    {"subject": "Berners-Lee", "relation": "was_in", "object": "Geneva"},
+    {"subject": "Berners-Lee", "relation": "proposed", "object": "project"},
+    {"subject": "project", "relation": "based_on", "object": "concept of hypertext"},
+    {"subject": "project", "relation": "purpose", "object": "facilitate sharing and updating information among researchers"}
+  ]
+}
